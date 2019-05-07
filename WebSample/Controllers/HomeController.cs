@@ -17,7 +17,7 @@ namespace WebSample.Controllers
         {
             _dbContext = applicationDbContext;
         }
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             return View();
            
@@ -47,7 +47,7 @@ namespace WebSample.Controllers
             return View();
         }
 
-        public IActionResult Data()
+        public async Task<IActionResult> DataAsync()
         {
             return Ok(await _dbContext.Persons.ToListAsync());
         }
