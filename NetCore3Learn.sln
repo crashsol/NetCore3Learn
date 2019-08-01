@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionApp", "Expression
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncApp", "AsyncApp\AsyncApp.csproj", "{6405CA3D-F834-48E3-8A35-8FA42458FC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlowTest", "WorkFlowTest\WorkFlowTest.csproj", "{237D9E23-37C2-4EEE-927D-970A3BC77376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkFlowTest", "WorkFlowTest\WorkFlowTest.csproj", "{237D9E23-37C2-4EEE-927D-970A3BC77376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopTest", "AopTest\AopTest.csproj", "{7E6AEB59-A9B7-44CB-A021-993206345367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{237D9E23-37C2-4EEE-927D-970A3BC77376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{237D9E23-37C2-4EEE-927D-970A3BC77376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{237D9E23-37C2-4EEE-927D-970A3BC77376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6AEB59-A9B7-44CB-A021-993206345367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6AEB59-A9B7-44CB-A021-993206345367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6AEB59-A9B7-44CB-A021-993206345367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6AEB59-A9B7-44CB-A021-993206345367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
