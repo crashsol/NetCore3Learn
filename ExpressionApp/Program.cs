@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
+using Snowflake.Core;
 
 namespace ExpressionApp
 {
@@ -8,6 +9,19 @@ namespace ExpressionApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var worker = new IdWorker(1, 1);
+            for (int i = 0; i < 100; i++)
+            {
+                long id = worker.NextId();
+
+                Console.WriteLine($"生成的ID为：{id}，他的长度是：{id.ToString().Length}");
+              
+
+            }
+
+            Console.ReadKey();
+
 
             Expression<Func<int, int, int>> adder = (x, y) => x + y;
             Console.WriteLine(adder);
